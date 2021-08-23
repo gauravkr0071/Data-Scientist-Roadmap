@@ -1,6 +1,6 @@
 ### __Course Structure__ 
 
-- Expectation, Variance ,mean,
+- Expectation, Variance and Mean
 - Error analysis
 - Bias and variance and its trade-off
 - linear/non-lineer/multiple/logistic regression , assumptions, performance metrics
