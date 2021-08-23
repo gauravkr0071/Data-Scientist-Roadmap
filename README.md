@@ -1,5 +1,7 @@
 ### __Course Structure__ 
 
+- Central Limit theurom and its importance
+- Sampling and its types
 - Expectation, Variance and Mean
 - Error analysis
 - Bias and variance and its trade-off
@@ -7,7 +9,7 @@
 - R-value, Adjusted-R, P-value
 - L1 and L2, ridge and lasso
 - Decision tree(CART, ID3.4)
-- Bagging, boosting , stacking, (why bagging works)
+- Bagging, Boosting , Stacking, (why bagging works)
 - Underfitting and Overfitting, Tradeoff, overcoming them , preventive methods
 - Random Forest
 - Adaboost, Gradient Boost, XGboost etc.
