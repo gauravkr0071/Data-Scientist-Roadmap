@@ -1,4 +1,8 @@
 ### __Bias and Variance__
+![image](https://user-images.githubusercontent.com/51910127/130867778-e221a2d1-39ca-4fb5-b162-6c0b7d91b828.png)
+![image](https://user-images.githubusercontent.com/51910127/130867910-0a2194f5-5b19-4c3b-ae41-d6401371ba12.png)
+
+
 
 __Conceptual definition :__
  - __Bias__ \
