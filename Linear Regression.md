@@ -118,3 +118,11 @@ Log transformation is used when the values of an attribute span a very large int
 - __Min-max scaling/normalization__
 Min-max normalization scales the data between 0 and 1. The formula used is:
 ![image](https://user-images.githubusercontent.com/51910127/130857772-e79dfcea-b33d-49ca-8d70-83426b12adb6.png)
+
+### __Mathematical Equation : Ordinary Least Squares__
+![image](https://user-images.githubusercontent.com/51910127/130860931-6fc663df-6051-4d00-a8ac-b87846df0062.png)
+![image](https://user-images.githubusercontent.com/51910127/130861001-26950a63-1798-45bc-b891-75dfa1d1b4c8.png)
+![image](https://user-images.githubusercontent.com/51910127/130861076-d3ffc807-c938-4a0d-b24c-1e7153c1c242.png)
+![image](https://user-images.githubusercontent.com/51910127/130861122-fe2b6e62-6f32-4db1-bcb7-bd1e195c9002.png)
+
+![image](https://user-images.githubusercontent.com/51910127/130861796-ea12fcf7-a6bc-42d7-8be5-8bab44899578.png)
