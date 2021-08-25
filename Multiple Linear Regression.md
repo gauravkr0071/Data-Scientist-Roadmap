@@ -1,4 +1,4 @@
-# __Linear Regression__
+# __Multiple Linear Regression__
 
 ### Assumptions 
 - __Linearity :__ There should be a __linear and additive relationship__ between dependent (response) variable and independent (predictor) variable(s). A linear relationship suggests that a change in response Y due to one unit change in X¹ is constant, regardless of the value of X¹. An additive relationship suggests that the effect of X¹ on Y is independent of other variables.
