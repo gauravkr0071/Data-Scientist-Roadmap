@@ -126,3 +126,15 @@ Min-max normalization scales the data between 0 and 1. The formula used is:
 ![image](https://user-images.githubusercontent.com/51910127/130861122-fe2b6e62-6f32-4db1-bcb7-bd1e195c9002.png)
 
 ![image](https://user-images.githubusercontent.com/51910127/130861796-ea12fcf7-a6bc-42d7-8be5-8bab44899578.png)
+
+### __[Performance Metrics](https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/)__
+- __R-Square__: It determines how much of the total variation in Y (dependent variable) is explained by the variation in X (independent variable). Mathematically, it can be written as:
+![image](https://user-images.githubusercontent.com/51910127/130868289-e5ccd7fd-5c8b-4b4e-bddd-b17f9cd80180.png)
+- __Adjusted R-square__: The only drawback of R2 is that if new predictors (X) are added to our model, R2 only increases or remains constant but it never decreases. We can not judge that by increasing complexity of our model, are we making it more accurate? \
+
+That is why, we use “Adjusted R-Square”. \
+
+The Adjusted R-Square is the modified form of R-Square that has been adjusted for the number of predictors in the model. It incorporates model’s degree of freedom. The adjusted R-Square only increases if the new term improves the model accuracy. \
+
+![image](https://user-images.githubusercontent.com/51910127/130868516-dfd07ff4-ab2b-405b-8508-f37bcad5b413.png)
+
