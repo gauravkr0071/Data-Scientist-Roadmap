@@ -89,3 +89,32 @@ It is also known as Cook’s Distance plot. Cook’s distance attempts to identi
 But, can these influential observations be treated as outliers? This question can only be answered after looking at the data. Therefore, in this plot, the large values marked by cook’s distance might require further investigation.
 
 Solution: For influential observations which are nothing but outliers, if not many, you can remove those rows. Alternatively, you can scale down the outlier observation with maximum value in data or else treat those values as missing values.
+
+### __Types of Linear Regression__
+
+- __Simple Linear Regression__ 
+Simple linear regression establishes a linear relationship between one input and one output variable, along with a constant co-efficient.
+![image](https://user-images.githubusercontent.com/51910127/130856902-904a989e-6f4c-46ae-b33e-7d02d179e3ec.png)
+
+- __Multiple Linear Regression__
+When multiple input variables are linearly combined to get the value of outcome, it is called multiple linear regression.
+![image](https://user-images.githubusercontent.com/51910127/130856956-6c80fcf1-6697-4b3a-8812-564d24a921ab.png)
+
+In the above equations,
+- y = the target variable.
+- x = the input variable.(x1,x2,…xn in case of multiple regression)
+- b0 = the intercept value.
+- b1, b2,.. bn = Coefficients describing the linear relationship between a combination of the input variables and target variable.
+- __Effect of b0 on x-y relationship:__
+The value of b0 defines the expected mean of target (y) when input (x) is 0. If we assign b0 to be 0, then we’re forcibly trying to pass the regression line through the origin, where both x and y are 0 and 0. This may be helpful in some cases, while reducing accuracy in others. Thus, it’s important to experiment with the values of b0, as per the needs of the dataset you’re working with.
+- __Effect of b1 on x-y relationship:__
+If b1 is greater than zero, then the input variable has a positive impact on the target. The increase in one would lead to an increase in the value of the other. Whereas, if b1 is less than zero, the input and output variables will have an inversely proportional or negative relationship. Thus, an increase in one would lead to a decrease in the value of the other.
+
+- ### __Feature Scaling__
+Feature scaling refers to normalizing data to converge within a certain range. The process modifies data values to better fit a given model. Two of the most widely used scaling methods are:
+- __Log transform__ 
+Log transformation is used when the values of an attribute span a very large interval. [Log transformation](https://kenbenoit.net/assets/courses/ME104/logmodels2.pdf) makes data more easily comparable and interpretable, and also help avoid overflows.
+![image](https://user-images.githubusercontent.com/51910127/130857661-d75c2f81-f7b8-41ac-8364-b8b7fe11c645.png)
+- __Min-max scaling/normalization__
+Min-max normalization scales the data between 0 and 1. The formula used is:
+![image](https://user-images.githubusercontent.com/51910127/130857772-e79dfcea-b33d-49ca-8d70-83426b12adb6.png)
