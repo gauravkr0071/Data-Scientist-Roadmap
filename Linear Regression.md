@@ -37,7 +37,7 @@ Another point, with presence of correlated predictors, the standard errors tend 
 
 Also, when predictors are correlated, the estimated regression coefficient of a correlated variable depends on which other predictors are available in the model. If this happens, you’ll end up with an incorrect conclusion that a variable strongly / weakly affects target variable. Since, even if you drop one correlated variable from the model, its estimated regression coefficients would change. That’s not good!
 
-How to check: You can use scatter plot to visualize correlation effect among variables. Also, you can also use VIF factor. VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity. Above all, a correlation table should also solve the purpose.
+How to check: You can use scatter plot to visualize correlation effect among variables. Also, you can also use [VIF factor](https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/). VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity. Above all, a correlation table should also solve the purpose.
 
  
 
