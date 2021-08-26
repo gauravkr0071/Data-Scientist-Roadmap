@@ -37,7 +37,7 @@ Another point, with presence of correlated predictors, the standard errors tend 
 
 Also, when predictors are correlated, the estimated regression coefficient of a correlated variable depends on which other predictors are available in the model. If this happens, you’ll end up with an incorrect conclusion that a variable strongly / weakly affects target variable. Since, even if you drop one correlated variable from the model, its estimated regression coefficients would change. That’s not good!
 
-How to check: You can use scatter plot to visualize correlation effect among variables. Also, you can also use [VIF factor](https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/). VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity. Above all, a correlation table should also solve the purpose.
+How to check: You can use scatter plot to visualize correlation effect among variables. Also, you can also use __[VIF factor](https://www.analyticsvidhya.com/blog/2020/03/what-is-multicollinearity/)__. VIF value <= 4 suggests no multicollinearity whereas a value of >= 10 implies serious multicollinearity. Above all, a correlation table should also solve the purpose.
 
  
 
@@ -49,7 +49,7 @@ How to check: You can look at residual vs fitted values plot. If heteroskedastic
 
 - __Normal Distribution of error terms__: If the error terms are non- normally distributed, confidence intervals may become too wide or narrow. Once confidence interval becomes unstable, it leads to difficulty in estimating coefficients based on minimization of least squares. Presence of non – normal distribution suggests that there are a few unusual data points which must be studied closely to make a better model.
 
-How to check: You can look at [QQ plot](https://www.google.com/search?q=whta+is+quantile+in+qq+plot&oq=whta+is+quantile+in+qq+plot&aqs=chrome..69i57j0i22i30j0i390l2.9049j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_yHwnYfzwHsiY4-EPzoKMOA14) (shown below). You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
+How to check: You can look at __[QQ plot](https://www.google.com/search?q=whta+is+quantile+in+qq+plot&oq=whta+is+quantile+in+qq+plot&aqs=chrome..69i57j0i22i30j0i390l2.9049j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_yHwnYfzwHsiY4-EPzoKMOA14)__ (shown below). You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
 
 - __Residual vs Fitted Values__
 
@@ -114,7 +114,7 @@ If b1 is greater than zero, then the input variable has a positive impact on the
 - ### __Feature Scaling__
 Feature scaling refers to normalizing data to converge within a certain range. The process modifies data values to better fit a given model. Two of the most widely used scaling methods are:
 - __Log transform__ 
-Log transformation is used when the values of an attribute span a very large interval. [Log transformation](https://kenbenoit.net/assets/courses/ME104/logmodels2.pdf) makes data more easily comparable and interpretable, and also help avoid overflows.
+Log transformation is used when the values of an attribute span a very large interval. __[Log transformation](https://kenbenoit.net/assets/courses/ME104/logmodels2.pdf)__ makes data more easily comparable and interpretable, and also help avoid overflows.
 ![image](https://user-images.githubusercontent.com/51910127/130857661-d75c2f81-f7b8-41ac-8364-b8b7fe11c645.png)
 - __Min-max scaling/normalization__
 Min-max normalization scales the data between 0 and 1. The formula used is:
