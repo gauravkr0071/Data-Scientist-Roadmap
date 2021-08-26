@@ -49,7 +49,7 @@ How to check: You can look at residual vs fitted values plot. If heteroskedastic
 
 - __Normal Distribution of error terms__: If the error terms are non- normally distributed, confidence intervals may become too wide or narrow. Once confidence interval becomes unstable, it leads to difficulty in estimating coefficients based on minimization of least squares. Presence of non – normal distribution suggests that there are a few unusual data points which must be studied closely to make a better model.
 
-How to check: You can look at QQ plot (shown below). You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
+How to check: You can look at [QQ plot](https://www.google.com/search?q=whta+is+quantile+in+qq+plot&oq=whta+is+quantile+in+qq+plot&aqs=chrome..69i57j0i22i30j0i390l2.9049j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_yHwnYfzwHsiY4-EPzoKMOA14) (shown below). You can also perform statistical tests of normality such as Kolmogorov-Smirnov test, Shapiro-Wilk test.
 
 - __Residual vs Fitted Values__
 
