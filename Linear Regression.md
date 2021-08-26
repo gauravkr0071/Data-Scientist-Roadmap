@@ -62,6 +62,7 @@ There are two major things which you should learn:
 
 If there exist any pattern (may be, a parabolic shape) in this plot, consider it as signs of non-linearity in the data. It means that the model doesn’t capture non-linear effects.
 If a funnel shape is evident in the plot, consider it as the signs of non constant variance i.e. heteroskedasticity.
+
 Solution: To overcome the issue of non-linearity, you can do a non linear transformation of predictors such as log (X), √X or X² transform the dependent variable. To overcome heteroskedasticity, a possible way is to transform the response variable such as log(Y) or √Y. Also, you can use weighted least square method to tackle heteroskedasticity.
 
 - __Residual vs Fitted Values__
