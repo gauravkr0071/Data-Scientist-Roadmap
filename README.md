@@ -1,5 +1,5 @@
 ### __Course Structure__ 
-
+- Linear Algebra : eigen values, eigen vectors, PCA, ICA, Pseudo Inverse, Matrix\vector differntiation, Norm
 - Central Limit theurom and its importance
 - Sampling and its types
 - Expectation, Variance and Mean
