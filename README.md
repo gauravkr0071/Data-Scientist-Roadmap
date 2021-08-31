@@ -27,5 +27,5 @@
 - Gaussian mixture model
 - Expectation maximization
 
-### __License and Citatation__
+### __License and Citation__
 If you are using this repo for prepration and in some work, and it helped you in anyway, please consider dropping a mail to me or cite this repo with link in any of your repo and follow me on github.
