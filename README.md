@@ -1,6 +1,7 @@
 ### __Course Structure__ 
 - Linear Algebra : eigen values, eigen vectors, PCA, ICA, Pseudo Inverse, Matrix\vector differntiation, Norm
 - Central Limit theurom and its importance
+- A/B testing, Hypthesis, P-value, F-value, T-test
 - Sampling and its types
 - Expectation, Variance and Mean
 - Error analysis
@@ -8,6 +9,7 @@
 - linear/non-lineer/multiple/logistic regression , assumptions, performance metrics
 - R-value, Adjusted-R, P-value
 - L1 and L2, ridge and lasso
+- Ensemble techniques and why its work ?
 - Decision tree(CART, ID3.4)
 - Bagging, Boosting , Stacking, (why bagging works)
 - Underfitting and Overfitting, Tradeoff, overcoming them , preventive methods
