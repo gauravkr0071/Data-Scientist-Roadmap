@@ -1,7 +1,7 @@
 ### __Course Structure__ 
 - Linear Algebra : eigen values, eigen vectors, PCA, ICA, Pseudo Inverse, Matrix\vector differntiation, Norm
 - Central Limit theurom and its importance
-- A/B testing, Hypthesis, P-value, F-value, T-test
+- A/B testing, Hypothesis, P-value, F-value, T-test
 - Sampling and its types
 - Expectation, Variance and Mean
 - Error analysis
