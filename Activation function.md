@@ -32,3 +32,14 @@ Start with ReLU in your network. Activation layer is added after the weight laye
 If you also have Batch-Norm layers in your network, that is added before the activation function making the order CNN-Batch Norm-Act. Although the order of Batch-Norm and Activation function is a topic of debate and some say that the order doesn’t matter, I use the order mentioned above just to follow the original Batch-Norm paper. \
 
 Activation functions work best in their default hyperparameters that are used in popular frameworks such as Tensorflow and Pytorch. However, one can fiddle with the negative slope in LeakyReLU and set it to 0.02 to expedite learning.
+
+![image](https://user-images.githubusercontent.com/51910127/131914369-661eb17b-4db1-4280-88b8-697614358fc4.png)
+![image](https://user-images.githubusercontent.com/51910127/131914427-2f06d61d-c402-48d6-a0fd-571c63a0d550.png)
+![image](https://user-images.githubusercontent.com/51910127/131914480-dfae0496-2fcf-4a59-aadf-7e4574f02183.png)
+![image](https://user-images.githubusercontent.com/51910127/131914576-ecf23059-37aa-4e2d-8491-432c82bcd99b.png)
+![image](https://user-images.githubusercontent.com/51910127/131914662-69cb8676-de5a-4f6c-8f8a-ee499c2d42f5.png)
+![image](https://user-images.githubusercontent.com/51910127/131914712-cf2a8cc0-f221-4a78-9771-3c9689edd55c.png)
+![image](https://user-images.githubusercontent.com/51910127/131914780-c65079d7-647e-484a-96d7-bda70e888166.png)
+![image](https://user-images.githubusercontent.com/51910127/131914881-4ff09431-3a26-4b0c-9bee-5656f5b7ca0c.png)
+![image](https://user-images.githubusercontent.com/51910127/131914930-f28e27da-0250-4eaa-8488-9f2ab04050c3.png)
+![image](https://user-images.githubusercontent.com/51910127/131914966-a1966529-b84b-42a1-842a-39378166b452.png)
