@@ -64,3 +64,4 @@ Simple derivatives. It has a unity derivative for positive values and zero elsew
 ![image](https://user-images.githubusercontent.com/51910127/131914881-4ff09431-3a26-4b0c-9bee-5656f5b7ca0c.png)
 ![image](https://user-images.githubusercontent.com/51910127/131914930-f28e27da-0250-4eaa-8488-9f2ab04050c3.png)
 ![image](https://user-images.githubusercontent.com/51910127/131914966-a1966529-b84b-42a1-842a-39378166b452.png)
+![image](https://user-images.githubusercontent.com/51910127/132059978-ec151724-d53d-4e71-9d86-7303fe5d40bc.png)
