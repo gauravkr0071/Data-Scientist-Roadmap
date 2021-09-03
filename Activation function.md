@@ -3,11 +3,14 @@ Simply put, an activation function is a function that is added into an artificia
 ![image](https://user-images.githubusercontent.com/51910127/131912295-97428d0a-fca4-4b60-be53-d790be9d1bee.png)
 
 - __Why is there a need for it?__ \
+
 There are multiple reasons for having non-linear activation functions in a network.
 Apart from the biological similarity that was discussed earlier, they also help in keeping the value of the output from the neuron restricted to a certain limit as per our requirement. This is important because input into the activation function is W*x + b where W is the weights of the cell and the x is the inputs and then there is the bias b added to that. This value if not restricted to a certain limit can go very high in magnitude especially in case of very deep neural networks that have millions of parameters. This will lead to computational issues. For example, there are some activation functions (like softmax) that out specific values for different values of input (0 or 1).
+
 The most important feature in an activation function is its ability to add non-linearity into a neural network. To understand this, let’s consider multidimensional data such as shown in the figure below:
 
 A linear classifier using the three features(weight, Systolic Blood Pressure and Age in this figure) can give us a line through the 3-D space but it will never be able to exactly learn the pattern that makes a person a smoker or a non-smoker(the classification problem in hand) because the pattern that defines this classification is simply not linear. In come the artificial neural networks. What if we use an ANN with a single cell but without an activation function. So our output is basically W*x + b. But this is no good because W*x also has a degree of 1, hence linear and this is basically identical to a linear classifier.
+
 What if we stack multiple layers. Let’s represent nᵗʰ layer as a function fₙ(x). So we have:
 o(x) = fₙ(fₙ₋₁(….f₁(x))
 
@@ -15,15 +18,20 @@ However, this is also not complex enough especially for problems with very high 
 In order to make the model get the power (aka the higher degree complexity) to learn the non-linear patterns, specific non-linear layers (activation functions) are added in between.
 
 - __Desirable features of an activation function___
-Vanishing Gradient problem: Neural Networks are trained using the process gradient descent. The gradient descent consists of the backward propagation step which is basically chain rule to get the change in weights in order to reduce the loss after every epoch. Consider a two-layer network and the first layer is represented as f₁(x) and the second layer is represented as f₂(x). The overall network is o(x) = f₂(f₁(x)). If we calculate weights during the backward pass, we get o`(x) = f₂(x)*f₁`(x). Here f₁(x) is itself a compound function consisting of Act(W₁*x₁ + b₁) where Act is the activation function after layer 1. Applying chain rule again, we clearly see that f₁`(x) = Act(W₁*x₁ + b₁)*x₁ which means it also depends directly on the activation value. Now imagine such a chain rule going through multiple layers while backpropagation. If the value of Act() is between 0 and 1, then several such values will get multiplied to calculate the gradient of the initial layers. This reduces the value of the gradient for the initial layers and those layers are not able to learn properly. In other words, their gradients tend to vanish because of the depth of the network and the activation shifting the value to zero. This is called the vanishing gradient problem. So we want our activation function to not shift the gradient towards zero. \
+__Vanishing Gradient problem:__ \
+Neural Networks are trained using the process gradient descent. The gradient descent consists of the backward propagation step which is basically chain rule to get the change in weights in order to reduce the loss after every epoch. Consider a two-layer network and the first layer is represented as f₁(x) and the second layer is represented as f₂(x). 
 
-Zero-Centered: Output of the activation function should be symmetrical at zero so that the gradients do not shift to a particular direction. 
+The overall network is o(x) = f₂(f₁(x)). If we calculate weights during the backward pass, we get o`(x) = f₂(x)*f₁`(x). Here f₁(x) is itself a compound function consisting of Act(W₁*x₁ + b₁) where Act is the activation function after layer 1. Applying chain rule again, we clearly see that f₁`(x) = Act(W₁*x₁ + b₁)*x₁ which means it also depends directly on the activation value. Now imagine such a chain rule going through multiple layers while backpropagation. If the value of Act() is between 0 and 1, then several such values will get multiplied to calculate the gradient of the initial layers. This reduces the value of the gradient for the initial layers and those layers are not able to learn properly. 
+
+In other words, their gradients tend to vanish because of the depth of the network and the activation shifting the value to zero. This is called the vanishing gradient problem. So we want our activation function to not shift the gradient towards zero. \
+
+__Zero-Centered__ : Output of the activation function should be symmetrical at zero so that the gradients do not shift to a particular direction. 
 
 
-Computational Expense: Activation functions are applied after every layer and need to be calculated millions of times in deep networks. Hence, they should be computationally inexpensive to calculate. \
+__Computational Expense__ : Activation functions are applied after every layer and need to be calculated millions of times in deep networks. Hence, they should be computationally inexpensive to calculate. \
 
 
-Differentiable: As mentioned, neural networks are trained using the gradient descent process, hence the layers in the model need to differentiable or at least differentiable in parts. This is a necessary requirement for a function to work as activation function layer.
+__Differentiable__ : As mentioned, neural networks are trained using the gradient descent process, hence the layers in the model need to differentiable or at least differentiable in parts. This is a necessary requirement for a function to work as activation function layer.
 
 - __How to use them in deep neural networks?__
 Tanh and sigmoid cause huge vanishing gradient problems. Hence, they should not be used.
