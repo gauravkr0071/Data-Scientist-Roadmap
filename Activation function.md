@@ -41,6 +41,19 @@ If you also have Batch-Norm layers in your network, that is added before the act
 
 Activation functions work best in their default hyperparameters that are used in popular frameworks such as Tensorflow and Pytorch. However, one can fiddle with the negative slope in LeakyReLU and set it to 0.02 to expedite learning.
 
+- __how Relu is used in SGD as it is non differtiable at zero?__
+It works with backprop because for (S)GD to work we only need a vector that drives us in the right direction. For differentiable functions we use the gradient. For points like the z=0 as you pointed out for the ReLu that are not differentiable we can use something called the sub-gradient. Essentially the main idea is that we can draw lots of tangent lines under to that point, since they are all “correct tangents”, thus just choose one for gradient descent.
+
+__ADvantages of using ReLU__
+
+Now why don't we use the softplus regularly in place of ReLUs? Well, a ReLU has nice properties such as:
+
+Computationally very cheap. Softplus requires exponential evaluations which are computationally demanding. \
+
+It can turn off completely, sometimes this can lead to dead neurons during training but this property leads to sparse activation patterns, sparsity means most neuron outputs are zero and zero is easily dealt with computational wise. Sparsity also improves signal-to-noise ratio because weak responses are completely thresholded out.
+
+Simple derivatives. It has a unity derivative for positive values and zero elsewhere. This is very important for efficient gradient propagation in very deep neural networks (DNN).
+
 ![image](https://user-images.githubusercontent.com/51910127/131914369-661eb17b-4db1-4280-88b8-697614358fc4.png)
 ![image](https://user-images.githubusercontent.com/51910127/131914427-2f06d61d-c402-48d6-a0fd-571c63a0d550.png)
 ![image](https://user-images.githubusercontent.com/51910127/131914480-dfae0496-2fcf-4a59-aadf-7e4574f02183.png)
