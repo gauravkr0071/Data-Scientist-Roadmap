@@ -47,7 +47,7 @@ Quickly go through the tutorial pages, you need not cram anything. Soon after, s
 
 <details>
   <summary>Why divide by n-1 in sample standard deviation</summary>
- 
+   [link](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1008&context=imseteach#:~:text=measures%20the%20squared%20deviations%20from,%2D1)%20rather%20than%20n.&text=freedom.,-Empirical%20Answer%3A)
   - Let f(v) = sum( (x_i-v)^2 )/n. Using f'(v) = 0, minima occurs at v = sum(x_i)/n = sample mean
   - Thus, f(sample mean) < f(population mean), as minima occurs at sample mean
   - Thus, sample std < population std (when using n in denominator)
