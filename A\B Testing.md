@@ -77,3 +77,35 @@ Another important aspect we must take care of is the __Sample size__. It is requ
 One way to perform the test is to calculate daily conversion rates for both the treatment and the control groups. Since the conversion rate in a group on a certain day represents a single data point, the sample size is actually the number of days. Thus, we will be testing the difference between the mean of daily conversion rates in each group across the testing period.
 
 When we run our experiment for one month, we noticed that the mean conversion rate for the Control group is 16% whereas that for the test Group is 19%.
+
+### __Statistical significance of the Test__
+
+Now, the main question is – Can we conclude from here that the Test group is working better than the control group?
+
+The answer to this is a simple No! For rejecting our null hypothesis we have to prove the Statistical significance of our test.
+
+There are two types of errors that may occur in our hypothesis testing:
+1. __Type I error__: We reject the null hypothesis when it is true. That is we accept the variant B when it is not performing better than A
+2. __Type II error__: We failed to reject the null hypothesis when it is false. It means we conclude variant B is not good when it performs better than A
+
+To avoid these errors we must calculate the statistical significance of our test.
+
+An experiment is considered to be statistically significant when we have enough evidence to prove that the result we see in the sample also exists in the population.
+
+That means the difference between your control version and the test version is not due to some error or random chance. To prove the statistical significance of our experiment we can use a two-sample T-test.
+
+The __two–sample t–test__ is one of the most commonly used hypothesis tests. It is applied to compare whether the average difference between the two groups.
+
+![image](https://user-images.githubusercontent.com/51910127/132100934-8c5e4683-4dc0-4a27-bcf5-82d4e57fd91e.png)
+
+To understand this, we must be familiar with a few terms:
+
+1. __Significance level (alpha)__: The significance level, also denoted as alpha or α, is the probability of rejecting the null hypothesis when it is true. Generally, we use the significance value of 0.05
+
+2. __P-Value__: It is the probability that the difference between the two values is just because of random chance. P-value is evidence against the null hypothesis. The smaller the p-value stronger the chances to reject the H0. For the significance level of 0.05, if the p-value is lesser than it hence we can reject the null hypothesis 
+
+3. __Confidence interval__: The confidence interval is an observed range in which a given percentage of test outcomes fall. We manually select our desired confidence level at the beginning of our test. Generally, we take a 95% confidence interval 
+
+Next, we can calculate our t statistics using the below formula:
+
+![image](https://user-images.githubusercontent.com/51910127/132100998-c75f9dc7-a728-4606-8226-a60075f18672.png)
