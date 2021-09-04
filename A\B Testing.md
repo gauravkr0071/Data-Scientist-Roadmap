@@ -109,3 +109,5 @@ To understand this, we must be familiar with a few terms:
 Next, we can calculate our t statistics using the below formula:
 
 ![image](https://user-images.githubusercontent.com/51910127/132100998-c75f9dc7-a728-4606-8226-a60075f18672.png)
+
+Credits : [Analaytics vidhya](https://www.analyticsvidhya.com/blog/2020/10/ab-testing-data-science/)
