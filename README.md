@@ -11,10 +11,10 @@
 - L1 and L2, ridge and lasso
 - Ensemble techniques and why its work ?
 - Decision tree(CART, ID3.4)
-- Bagging, Boosting , Stacking, (why bagging works)
+- Bagging, [Boosting](https://www.youtube.com/watch?v=sfVms30Ulxw) , Stacking, (why bagging works)
 - Underfitting and Overfitting, Tradeoff, overcoming them , preventive methods
 - Random Forest
-- Adaboost, Gradient Boost, XGboost etc.
+- [Adaboost](https://www.youtube.com/watch?v=9CPsYsB4OLI&t=878s), Gradient Boost, XGboost etc.
 - Perceptron model, Activation function, Neural network/cnn, Backpropagation, Grad descent/asscent
 - Effect of Batch size, learning rate.
 - Loss function/ optimization/ how to derive them
