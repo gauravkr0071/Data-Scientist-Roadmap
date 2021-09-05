@@ -15,16 +15,12 @@ On the basis of the arrangement of base learners, ensemble methods can be divide
 
 On the basis of the type of base learners, ensemble methods can be divided into two groups: homogenous ensemble method uses the same type of base learner in each iteration. heterogeneous ensemble method uses the different type of base learner in each iteration.
 
-### __Boosting vs. Bagging___ 
+### __Boosting vs. Bagging__ \
 
 Bagging doesn’t work so well with stable models.
 Boosting might still help.
-• Boosting might hurt performance on noisy
-datasets. Bagging doesn’t have this problem
-• In practice bagging almost always helps.
-
-• On average, boosting helps more than bagging,
-but it is also more common for boosting to hurt
-performance.
-• The weights grow exponentially.
-• Bagging is easier to parallelize.
+- Boosting might hurt performance on noisy datasets. Bagging doesn’t have this problem
+- In practice bagging almost always helps.
+- On average, boosting helps more than bagging, but it is also more common for boosting to hurtperformance.
+- The weights grow exponentially.
+- Bagging is easier to parallelize.
