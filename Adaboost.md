@@ -29,3 +29,4 @@ AdaBoost is easy to implement. It iteratively corrects the mistakes of the weak 
 - __Cons__
 
 AdaBoost is sensitive to noise data. It is highly affected by outliers because it tries to fit each point perfectly. AdaBoost is slower compared to XGBoost.
+[Proof for adaboost, taht aerror will converge to zero](https://www.cs.toronto.edu/~jlucas/teaching/csc411/lectures/lec19_20_handout.pdf)
