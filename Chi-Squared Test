@@ -1,0 +1,12 @@
+### __Chi-Squared Test__
+
+There are two types of chi-square tests. Both use the chi-square statistic and distribution for different purposes:
+
+- A chi-square goodness of fit test determines if sample data matches a population. For more details on this type, see: Goodness of Fit Test.
+- A chi-square test for independence compares two variables in a contingency table to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
+
+### __What is a Chi-Square Statistic?__
+
+The formula for the chi-square statistic used in the chi square test is:
+
+https://www.statisticshowto.com/wp-content/uploads/2013/09/chi-square-formula.jpg
