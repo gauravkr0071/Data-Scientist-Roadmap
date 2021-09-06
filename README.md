@@ -5,6 +5,7 @@
 - Sampling and its types
 - [Data cleansing](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 - [Handling Missing data]()
+- [Feature Selection Techniques 1](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 - Expectation, Variance and Mean
 - Error analysis
 - Bias and variance and its trade-off
