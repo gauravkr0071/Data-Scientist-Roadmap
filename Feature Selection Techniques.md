@@ -1,3 +1,6 @@
+[link](https://machinelearningmastery.com/rfe-feature-selection-in-python/) \
+[link 2](https://machinelearningmastery.com/feature-selection-machine-learning-python/)\
+
 Recursive Feature Elimination, or RFE for short, is a popular feature selection algorithm.
 
 RFE is popular because it is easy to configure and use and because it is effective at selecting those features (columns) in a training dataset that are more or most relevant in predicting the target variable.
