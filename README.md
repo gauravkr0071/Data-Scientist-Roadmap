@@ -2,6 +2,7 @@
 - Linear Algebra : eigen values, eigen vectors, PCA, ICA, Pseudo Inverse, Matrix\vector differntiation, Norm
 - Central Limit theurom and its importance
 - A/B testing, Hypothesis, P-value, F-value, T-test
+- Chi-Squared test
 - Sampling and its types
 - [Data cleansing](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 - [Handling Missing data]()
