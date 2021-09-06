@@ -1,4 +1,4 @@
-### __7 Ways to handle Missing data : __
+### __7 Ways to handle Missing data :__
 
 - __Deleting Rows with missing values__
 
