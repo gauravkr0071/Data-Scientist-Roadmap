@@ -69,5 +69,5 @@ The chi-square formula is a difficult formula to deal with. That’s mostly beca
 
 Example question: 256 visual artists were surveyed to find out their zodiac sign. The results were: Aries (29), Taurus (24), Gemini (22), Cancer (19), Leo (21), Virgo (18), Libra (19), Scorpio (20), Sagittarius (23), Capricorn (18), Aquarius (20), Pisces (23). Test the hypothesis that zodiac signs are evenly distributed across visual artists.
 
-[Further Read](https://www.statisticshowto.com/probability-and-statistics/chi-square/)
+[Further Read](https://www.statisticshowto.com/probability-and-statistics/chi-square/) \
 [Video link](https://www.youtube.com/watch?v=f53nXHoMXx4&t=1s)
