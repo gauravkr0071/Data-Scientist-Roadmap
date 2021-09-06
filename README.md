@@ -3,6 +3,7 @@
 - Central Limit theurom and its importance
 - A/B testing, Hypothesis, P-value, F-value, T-test
 - Sampling and its types
+- [Data cleansing](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 - Expectation, Variance and Mean
 - Error analysis
 - Bias and variance and its trade-off
