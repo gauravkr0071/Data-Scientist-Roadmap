@@ -14,6 +14,7 @@
 - L1 and L2, ridge and lasso
 - Ensemble techniques and why its work ?
 - Decision tree(CART, ID3.4)
+- [How to compute Entropy for conntnious data ?](https://datascience.stackexchange.com/questions/24876/how-can-i-compute-information-gain-for-continuous-valued-attributes)
 - Bagging, [Boosting](https://www.youtube.com/watch?v=sfVms30Ulxw) , Stacking, (why bagging works)
 - Underfitting and Overfitting, Tradeoff, overcoming them , preventive methods
 - Random Forest
