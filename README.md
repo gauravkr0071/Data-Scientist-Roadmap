@@ -6,8 +6,9 @@
 - Sampling and its types
 - [Data cleansing](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
 - [Handling Missing data](https://github.com/gauravkr0071/Data-Scientist-Roadmap/blob/main/Handling%20missing%20data.md)
-- Outlier Detection(https://www.youtube.com/watch?v=rzR_cKnkD18&t=598s)
-- [Feature Selection Techniques 1](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
+- [Outlier Detection](https://www.youtube.com/watch?v=rzR_cKnkD18&t=598s)
+- [Feature Selection Techniques](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
+- [Feature engineering](https://www.youtube.com/watch?v=OTPz5plKb40&list=PLZoTAELRMXVPwYGE2PXD3x0bfKnR0cJjN&index=2)
 - Expectation, Variance and Mean
 - Error analysis
 - Bias and variance and its trade-off
