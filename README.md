@@ -5,7 +5,7 @@
 - [Chi-Squared test](https://github.com/gauravkr0071/Data-Scientist-Roadmap/blob/main/Chi-Squared%20Test.md)
 - Sampling and its types
 - [Data cleansing](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/)
-- [Handling Missing data]()
+- [Handling Missing data](https://github.com/gauravkr0071/Data-Scientist-Roadmap/blob/main/Handling%20missing%20data.md)
 - Outlier Detection
 - [Feature Selection Techniques 1](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 - Expectation, Variance and Mean
