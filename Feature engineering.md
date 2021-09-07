@@ -1,0 +1,1 @@
+[Fundamental Techniques of Feature Engineering for Machine Learning _ by Emre Rençberoğlu _ Towards Data Science.pdf](https://github.com/gauravkr0071/Data-Scientist-Roadmap/files/7124136/Fundamental.Techniques.of.Feature.Engineering.for.Machine.Learning._.by.Emre.Rencberoglu._.Towards.Data.Science.pdf)
