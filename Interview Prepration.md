@@ -1,43 +1,5 @@
 # Data Science Preparation
 
-**P.S. Ctrl+F to serach for relevant keywords.**
-
-### Preliminaries
-
-If you are just beginning with ML & Data Science, a good first place to start will be 
- - [ ] [Andrew Ng Coursera ML course](https://www.coursera.org/learn/machine-learning). Finish at least the first few weeks.
-
-If you have already done the Andrew Ng course, you might want to brush up on the concepts through these notes.
- - [ ] [Notes on Andrew Ng Machine Learning](https://www.holehouse.org/mlclass/)
-
-If you want to make a list of important interview topics head over to this article.
- - [ ] [Machine Learning Cheatsheet](https://medium.com/swlh/cheat-sheets-for-machine-learning-interview-topics-51c2bc2bab4f)
-
-### Courses & Resources
- - [ ] [Become a Data Scientist in 2020 with these 10 resources](https://towardsdatascience.com/top-10-resources-to-become-a-data-scientist-in-2020-99a315194701)
- - [ ] [Applied Data Science with Python | Coursera](https://www.coursera.org/specializations/data-science-python?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-_4L3mvw.I6oY9SNPHAtR2Q&siteID=lVarvwc5BD0-_4L3mvw.I6oY9SNPHAtR2Q&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
- - [ ] [Minimal Pandas Subset for Data Scientists - Towards Data Science](https://towardsdatascience.com/minimal-pandas-subset-for-data-scientists-6355059629ae)
- - [ ] [Python’s One Liner graph creation library with animations Hans Rosling Style](https://towardsdatascience.com/pythons-one-liner-graph-creation-library-with-animations-hans-rosling-style-f2cb50490396)
- - [ ] [3 Awesome Visualization Techniques for every dataset](https://towardsdatascience.com/3-awesome-visualization-techniques-for-every-dataset-9737eecacbe8)
- - [ ] [Inferential Statistics | Coursera](https://www.coursera.org/learn/inferential-statistics-intro?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-ydEVG6k5kidzLtNqbbVQvQ&siteID=lVarvwc5BD0-ydEVG6k5kidzLtNqbbVQvQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
- - [ ] [Advanced Machine Learning | Coursera](https://www.coursera.org/specializations/aml?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-_1LkRNzPhJ43gzMHQzcbag&siteID=lVarvwc5BD0-_1LkRNzPhJ43gzMHQzcbag&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
- - [ ] [Deep Learning | Coursera](https://www.coursera.org/specializations/deep-learning?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-m3SBadPJeg1Z1rWVng39OQ&siteID=lVarvwc5BD0-m3SBadPJeg1Z1rWVng39OQ&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
- - [ ] [Deep Neural Networks with PyTorch | Coursera](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?ranMID=40328&ranEAID=lVarvwc5BD0&ranSiteID=lVarvwc5BD0-Kb0qPiTtTFPC3kMQZlnqpg&siteID=lVarvwc5BD0-Kb0qPiTtTFPC3kMQZlnqpg&utm_content=2&utm_medium=partners&utm_source=linkshare&utm_campaign=lVarvwc5BD0)
- - [ ] [Machine Learning - complete course notes](http://www.holehouse.org/mlclass/)
- - [ ] [Data Science Interview Questions | Data Science Interview Questions and Answers with Tips](https://www.youtube.com/watch?v=7YuTmLvs1Dc)
-
-### Data Science Practice Questions
-If you are clueless about which topic to start from in data science, but have some basic idea about ML, then simply give these questions a go. If you get a bunch of them wrong, you'll know where to start your preparation :)
-
-### SQL
-Quickly go through the tutorial pages, you need not cram anything. Soon after, solve all the Hackerrank questions (in sequence, without skipping). Refer back to any of the tutorials or look up the discussion forum when stuck. You will learn more effectively this way and applying the various clauses will boost your recall.
-
-- [ ] [SQL Tutorial Series](https://www.w3schools.com/sql/default.asp)
-- [ ] [Hackerrank SQL Practice Questions](https://www.hackerrank.com/domains/sql)
-- [ ] [Interview Questions - SQL Nomenclature, Theory, Databases](https://www.jigsawacademy.com/blogs/business-analytics/sql-joins-interview-questions/)
-- [ ] [SQL Joins](https://learnsql.com/blog/sql-join-interview-questions-with-answers/)
-- [ ] [Popular Interview Questions solved](https://github.com/Aafreen29/SQL-Interview-Prep-Question/blob/master/queries.sql)
-- [ ] [Amazon Data Analyst SQL Interview Questions](https://leetcode.com/discuss/interview-question/606844/amazon-data-analyst-sql-interview-questions)
 
 ### Probability
  - [ ] [Questions on Expectations in Probability (must-do, solutions well explained)](https://www.codechef.com/wiki/tutorial-expectation)
