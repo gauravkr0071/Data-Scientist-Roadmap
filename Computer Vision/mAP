@@ -1,2 +1,10 @@
 # __mAP (mean Average Precision) for Object Detection__
 
+
+
+- if IOU is greater than prescribed thershold, than it is TP(true positive)
+- Precision =(TP)/(TP+FP)
+1. TP+FP= number of bounding box suggested/detected by trained model
+2. TP= Number of Bounding boxes that has IOU > certain thershold and correctly detecting the object
+- Recall = (TP)/(TP+FN) 
+1. TP+FN= Number of Grounf Truth box presnt in the image
