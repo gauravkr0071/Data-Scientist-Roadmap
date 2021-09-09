@@ -1,5 +1,6 @@
 ### __some questions on CNN__
 
+- __Difference between SGD and GD__
 
 ![image](https://user-images.githubusercontent.com/51910127/132727548-abaac1ec-7308-4e7a-840e-bceb72079bbe.png)
 
