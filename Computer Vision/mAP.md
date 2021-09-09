@@ -1,5 +1,6 @@
 # __mAP (mean Average Precision) for Object Detection__
 
+![Capture](https://user-images.githubusercontent.com/51910127/132707789-52f5b62c-bca7-4287-94f1-1a5d3c416fc6.PNG)
 
 
 - if IOU is greater than prescribed thershold, than it is TP(true positive)
