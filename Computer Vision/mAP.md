@@ -8,5 +8,5 @@
 1. TP+FP= number of bounding box suggested/detected by trained model
 2. TP= Number of Bounding boxes that has IOU > certain thershold and correctly detecting the object
 - Recall = (TP)/(TP+FN) 
-1. TP+FN= Number of Grounf Truth box presnt in the image
+1. TP+FN= Number of Grounf Truth box presnt in the image \
 [Link](https://www.youtube.com/watch?v=jAMxrRw4PMY&list=PL1GQaVhO4f_jE5pnXU_Q4MSrIQx4wpFLM&index=3)
