@@ -8,6 +8,12 @@ __But SGD has some cons too…__
 
 SGD is much faster but the convergence path of SGD is noisier than that of original gradient descent. This is because in each step it is not calculating the actual gradient but an approximation. So we see a lot of fluctuations in the cost. But still, it is a much better choice.
 
+A configuration of the batch size anywhere in between (e.g. more than 1 example and less than the number of examples in the training dataset) is called “minibatch gradient descent.”
+
+1. Batch Gradient Descent. Batch size is set to the total number of examples in the training dataset.
+2. Stochastic Gradient Descent. Batch size is set to one.
+3. Minibatch Gradient Descent. Batch size is set to more than one and less than the total number of examples in the training dataset.
+
 ![image](https://user-images.githubusercontent.com/51910127/132750911-7a298c3d-4513-411e-a237-d91dfedc2e2f.png)
 
 We can see the noise of SGD in the above contour plot. It is to be noted that vanilla GD takes a fewer number of updates but each update is done actually after one whole epoch. SGD takes a lot of update steps but it will take a lesser number of epochs i.e. the number of times we iterate through all examples will be lesser in this case and thus it is a much faster process.
