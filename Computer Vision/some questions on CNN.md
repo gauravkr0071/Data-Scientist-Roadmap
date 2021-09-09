@@ -22,3 +22,4 @@ As you can see in the plot there is a third variant of gradient descent known as
 
 ![image](https://user-images.githubusercontent.com/51910127/132753875-bb5f23b3-b741-45fe-9e58-567ec74d4d77.png)
 
+__Batch size does not affect accuracy much but it affects model learning , training time__
