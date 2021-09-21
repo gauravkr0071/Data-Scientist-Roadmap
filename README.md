@@ -28,7 +28,7 @@
 - SVM and assumptions
 - conditional probability, conditional idependence
 - Naive bayes and assumption
-- Confusion Matrix, AUC, ROC, false positive, false negative, etc.
+- Confusion Matrix, [AUC, ROC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc), false positive, false negative, etc.
 - Performance metrics in CNN (mAP, confusion matrix etc.)
 - K- nearest neighbour, Assumption, Performance metrics, Advantages and Disadvantages.
 - K- mean, Assumption, Performance metrics, Advantages and Disadvantages.
