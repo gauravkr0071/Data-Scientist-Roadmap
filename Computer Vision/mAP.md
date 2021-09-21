@@ -18,8 +18,8 @@
 Lets say, you have just 2 classes 0, 1, where the correct result is 1 and wrong one is 0: (eg. like coin toss, where you only consider Heads as a win)
 
 And your actual and predicted results are:
-actual  = [1,1,0,0,0]
-pred    = [1,0,1,0,0]
+actual  = [1,1,0,0,0] \
+pred    = [1,0,1,0,0] \
 
 In this case
 TP = 1 -> 1st column
