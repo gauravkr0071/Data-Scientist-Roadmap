@@ -6,3 +6,4 @@
 - Introduction to FAST (Features from Accelerated Segment Test)
 - Introduction to BRIEF (Binary Robust Independent Elementary Features)
 - Introduction to ORB (Oriented FAST and Rotated BRIEF)
+- [Integral image](https://en.wikipedia.org/wiki/Summed-area_table)
