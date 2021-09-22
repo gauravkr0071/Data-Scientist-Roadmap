@@ -22,7 +22,7 @@ They allow for fast computation of box type convolution filters. The entry of an
 With I_Σ calculated, it only takes four additions to calculate the sum of the intensities over any upright, rectangular area, independent of its size.
 
 
-3.Hessian matrix-based interest points \
+3.[Hessian matrix-based interest points](https://www.quora.com/What-are-the-ways-of-calculating-2-x-2-Hessian-matrix-for-2D-image-of-pixel-at-x-y-position) \
 
 Surf uses the Hessian matrix because of its good performance in computation time and accuracy. Rather than using a different measure for selecting the location and the scale (Hessian-Laplace detector), surf relies on the determinant of the Hessian matrix for both. Given a pixel, the Hessian of this pixel is something like:
 
