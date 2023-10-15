@@ -53,6 +53,7 @@ Miles barks gaurav
 1. [https://realpython.com/python-classes/#special-methods-and-protocols]
 2. super() function[https://realpython.com/python-super/]
 3. decorators [https://realpython.com/primer-on-python-decorators/]
+4. default arguments [https://www.geeksforgeeks.org/default-arguments-in-python/]
 
 ```py
 Example 1:
