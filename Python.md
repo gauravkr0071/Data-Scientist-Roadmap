@@ -1,6 +1,6 @@
 --object oriented design[https://realpython.com/python3-object-oriented-programming/]
 
-'''.py
+'''cpp
 
 print("Hello world")
 
@@ -17,7 +17,6 @@ class Dog:
     def speak(self, sound):
         return f"{self.name} barks {sound}"
         
-        
 class JackRussellTerrier(Dog):
     def speak(self, sound="Arf"):
         ##return f"{self.name} says {sound}"
@@ -27,7 +26,6 @@ class Dachshund(Dog):
 
 class Bulldog(Dog):
     pass
-
 
 miles = JackRussellTerrier("Miles", 4)
 buddy = Dachshund("Buddy", 9)
@@ -40,5 +38,6 @@ miles = JackRussellTerrier("Miles", 4)
 
 print(miles.speak())
 print(miles.speak("gaurav"))
+
 '''
 
