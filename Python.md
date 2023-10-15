@@ -1,6 +1,6 @@
 --object oriented design[https://realpython.com/python3-object-oriented-programming/]
 
-'''cpp
+```py
 
 print("Hello world")
 
@@ -40,4 +40,14 @@ print(miles.speak())
 print(miles.speak("gaurav"))
 
 '''
+
+output
+```py
+Hello world
+Miles barks Arf
+Miles barks gaurav
+
+
+```
+
 
