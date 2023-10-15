@@ -1,5 +1,6 @@
 --object oriented design[https://realpython.com/python3-object-oriented-programming/]
 
+
 ```py
 
 print("Hello world")
@@ -49,5 +50,90 @@ Miles barks gaurav
 
 
 ```
+1. [https://realpython.com/python-classes/#special-methods-and-protocols]
+2. super() function[https://realpython.com/python-super/]
+3. decorators [https://realpython.com/primer-on-python-decorators/]
 
+```py
+Example 1:
+
+def do_twice(func):
+    print("do_twice")
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        print("ha")
+        #return func(*args, **kwargs)
+    print("ha1")
+    return wrapper_do_twice
+
+
+@do_twice
+def return_greeting(name):
+    print("Creating greeting")
+    return f"Hi {name}"
+    
+print(return_greeting("Adam"))    
+
+output:
+do_twice
+ha1
+Creating greeting
+ha
+None
+
+Example 2:
+def do_twice(func):
+    print("do_twice")
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        print("ha")
+        return func(*args, **kwargs)
+    print("ha1")
+    return wrapper_do_twice
+
+
+@do_twice
+def return_greeting(name):
+    print("Creating greeting")
+    return f"Hi {name}"
+    
+return_greeting("Adam")
+
+
+ouput:
+do_twice
+ha1
+Creating greeting
+ha
+Creating greeting
+>
+
+example 3:
+
+def do_twice(func):
+    print("do_twice")
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        print("ha")
+        return func(*args, **kwargs)
+    print("ha1")
+    return wrapper_do_twice
+
+
+@do_twice
+def return_greeting(name):
+    print("Creating greeting")
+    return f"Hi {name}"
+    
+print(return_greeting("Adam"))
+
+
+ouutput:
+do_twice
+ha1
+Creating greeting
+ha
+Creating greeting
+Hi Adam
+```
 
