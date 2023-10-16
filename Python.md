@@ -54,6 +54,8 @@ Miles barks gaurav
 2. super() function[https://realpython.com/python-super/]
 3. decorators [https://realpython.com/primer-on-python-decorators/]
 4. default arguments [https://www.geeksforgeeks.org/default-arguments-in-python/]
+5. how to create 2d list in python with some more concept[https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/]
+6. understanding variables in python[https://realpython.com/pointers-in-python/]
 
 ```py
 Example 1:
