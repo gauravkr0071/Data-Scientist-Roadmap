@@ -1,4 +1,4 @@
---object oriented design[https://realpython.com/python3-object-oriented-programming/]
+--object oriented design[https://realpython.com/python3-object-oriented-programming/] 
 
 
 ```py
@@ -56,6 +56,7 @@ Miles barks gaurav
 4. default arguments [https://www.geeksforgeeks.org/default-arguments-in-python/]
 5. how to create 2d list in python with some more concept[https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/]
 6. understanding variables in python[https://realpython.com/pointers-in-python/]
+7. global variables in python[https://realpython.com/python-use-global-variable-in-function/]
 
 ```py
 Example 1:
