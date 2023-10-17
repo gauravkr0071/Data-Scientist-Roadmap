@@ -57,6 +57,7 @@ Miles barks gaurav
 5. how to create 2d list in python with some more concept[https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/]
 6. understanding variables in python[https://realpython.com/pointers-in-python/]
 7. global variables in python[https://realpython.com/python-use-global-variable-in-function/]
+8. nonlocal keyword [https://www.geeksforgeeks.org/python-nonlocal-keyword/]
 
 ```py
 Example 1:
